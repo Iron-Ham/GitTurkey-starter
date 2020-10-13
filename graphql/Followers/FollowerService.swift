@@ -4,7 +4,11 @@ class FollowerService: ObservableObject {
     @Published var followers: [Follower] = []
 
     func fetchFollowers() {
-        // Get the followers
+        // TODO: Fetch Followers
+    }
+
+    init(followers: [Follower] = []) {
+        self.followers = followers
     }
 
 }
